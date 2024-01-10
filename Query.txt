@@ -1,0 +1,55 @@
+-Domanda 1:
+
+Query: 
+SELECT * 
+FROM `students` WHERE `date_of_birth` LIKE '1990%'; 
+
+
+
+-Domanda 2:
+
+Query:
+
+SELECT * FROM `courses` WHERE `cfu` > 10; 
+
+
+
+-Domanda 3:
+
+Query:
+SELECT * FROM `students` WHERE `date_of_birth` <= '1994'; 
+
+
+
+-Domanda 4:
+
+Query:
+SELECT * FROM `courses` WHERE `period` = 'I semestre' AND `year`= 1; 
+
+
+
+-Domanda 5:
+
+Query:
+SELECT * FROM `exams` WHERE `hour` > '14:00:00' AND `date` = '2020/06/20'; 
+
+
+
+-Domanda 6:
+
+Query:
+SELECT * FROM `degrees` WHERE `level` = 'magistrale'; 
+
+
+
+-Domanda 7:
+
+Query:
+SELECT COUNT(*) FROM `departments`; 
+
+
+
+-Domanda 8:
+
+Query:
+SELECT COUNT(*) FROM `teachers` WHERE `phone` IS NULL; 
