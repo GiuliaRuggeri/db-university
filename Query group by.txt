@@ -1,0 +1,19 @@
+-Domanda 1
+
+Query: 
+SELECT COUNT(*), YEAR(`enrolment_date`) FROM `students` GROUP BY YEAR(`enrolment_date`); 
+
+-Domanda 2:
+
+Query:
+SELECT office_address, COUNT(*) FROM `teachers` GROUP BY `office_address`; 
+
+-Domanda 3:
+
+Query:
+SELECT `exam_id` AS esame, AVG(`vote`) AS media FROM `exam_student` GROUP BY `exam_id`; 
+
+-Domanda 4:
+
+Query:
+SELECT COUNT(`id`), `department_id` FROM `degrees` GROUP BY `department_id`; 
